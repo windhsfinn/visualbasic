@@ -157,6 +157,7 @@ Private Sub Crypt(bytPlainArray() As Byte, bytKeyArray() As Byte, bytCipherArray
     
     i = 0
     j = 0
+    z = 0
     For m = 0 To intPlainLen - 1 Step 1
         If blSpritz Then
             
